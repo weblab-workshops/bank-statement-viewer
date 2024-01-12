@@ -3,7 +3,7 @@
 import { useState } from "react";
 
 export default function StatementItem({ data }) {
-  console.log(data);
+  // console.log(data);
   const [category, setCategory] = useState(data.category);
   const desc = data.description;
   const date = data.transactionDate;
